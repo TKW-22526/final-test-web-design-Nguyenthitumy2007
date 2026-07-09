@@ -1,0 +1,65 @@
+body {
+    /* Đổi sang màu nền tối sâu hơn để làm nổi bật đèn neon */
+    background-color: #0d0e15; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #0d0e15;
+}
+::-webkit-scrollbar-thumb {
+    /* Thanh cuộn màu tím chuyển neon khi di chuột */
+    background: #2a2b3d;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #bd00ff; /* Tím Neon sáng rực */
+}
+
+/* Định dạng các thẻ Card game */
+.game-card {
+    background-color: #161925 !important; /* Nền card xám xanh đậm hiện đại */
+    border: 1px solid #23273a !important;
+    border-radius: 15px !important; /* Bo góc tròn hơn nhìn cao cấp hơn */
+    overflow: hidden;
+    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), 
+                box-shadow 0.3s ease, 
+                border-color 0.3s ease;
+}
+
+/* Hiệu ứng Hover Card sinh động: Hơi nghiêng nhẹ, trồi lên và tỏa hào quang Tím Cyan */
+.game-card:hover {
+    transform: translateY(-8px) scale(1.02); 
+    /* Đổ bóng kép (Dual Glow) kết hợp Tím và Xanh giúp card có chiều sâu */
+    box-shadow: 0 10px 25px rgba(189, 0, 255, 0.25), 0 0 15px rgba(0, 240, 255, 0.15);
+    border-color: #bd00ff !important; /* Viền chuyển sang Tím Neon */
+}
+
+/* Nút bấm hiệu ứng phát sáng chuyển màu (Gradient Glow) */
+.glow-btn {
+    background: linear-gradient(135deg, #00f0ff 0%, #7000ff 100%) !important;
+    border: none !important;
+    color: #ffffff !important;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(112, 0, 255, 0.3);
+}
+
+/* Khi hover vào nút: Nút tỏa sáng rực rỡ và dịch chuyển màu */
+.glow-btn:hover {
+    transform: scale(1.05);
+    background: linear-gradient(135deg, #7000ff 0%, #00f0ff 100%) !important; /* Đảo chiều màu */
+    box-shadow: 0 0 20px rgba(0, 240, 255, 0.6) !important; /* Tỏa sáng mạnh */
+}
+
+/* Tùy chỉnh thêm cho các Badge (Nhãn thể loại game) thêm sinh động */
+.badge.bg-info {
+    background: linear-gradient(90deg, #ff007a, #9600ff) !important; /* Badge chuyển màu Hồng - Tím */
+    color: #fff !important;
+    padding: 6px 12px !important;
+    border-radius: 6px !important;
+}
