@@ -7,7 +7,7 @@ body {
 
 .navbar {
     background-color: #1a1a1a !important;
-    border-bottom: 2px solid #ff4757;
+    border-bottom: 2px solid #39aa5d;
 }
 
 .navbar-brand, .nav-link {
@@ -15,7 +15,7 @@ body {
 }
 
 .nav-link:hover {
-    color: #ff4757 !important;
+    color: #adebad !important;
 }
 
 /* Card Game */
@@ -29,8 +29,8 @@ body {
 
 .game-card:hover {
     transform: translateY(-8px);
-    box-shadow: 0 10px 20px rgba(255, 71, 87, 0.3);
-    border-color: #ff4757;
+    box-shadow: 0 10px 20px rgba(36, 222, 147, 0.3);
+    border-color: #08c56a;
 }
 
 .game-card img {
@@ -41,15 +41,15 @@ body {
 /* Footer */
 footer {
     background-color: #1a1a1a;
-    border-top: 2px solid #ff4757;
+    border-top: 2px solid #54c49b;
 }
 
 /* Nút bấm nổi bật */
 .btn-danger {
-    background-color: #ff4757;
+    background-color: #13b187;
     border: none;
 }
 
 .btn-danger:hover {
-    background-color: #ff6b81;
+    background-color: #adadeb;
 }
