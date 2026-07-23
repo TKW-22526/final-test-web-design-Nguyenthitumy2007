@@ -53,3 +53,26 @@ footer {
 .btn-danger:hover {
     background-color: #adadeb;
 }
+.search-box-custom {
+    border-radius: 50px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.search-box-custom .form-control {
+    border: none;
+    padding-left: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.95);
+}
+
+.search-box-custom .form-control:focus {
+    box-shadow: none;
+    background-color: #ffffff;
+}
+
+.search-box-custom .btn {
+    border-radius: 0 50px 50px 0;
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
+}

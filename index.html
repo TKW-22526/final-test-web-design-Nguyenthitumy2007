@@ -31,12 +31,25 @@
         <div class="container my-5 py-5">
             <h1 class="display-3 fw-bold text-info">KHÁM PHÁ THẾ GIỚI GAME</h1>
             <p class="lead">Nơi cập nhật thông tin chi tiết và tải nhanh các tựa game Hot nhất trên CH Play.</p>
-            <a href="html/san-pham.html" class="btn btn-danger btn-lg mt-3 px-5 py-3 fw-bold">XEM KHO GAME</a>
+        <div class="row justify-content-center mb-4">
+                <div class="col-11 col-md-8 col-lg-6">
+                    <form action="html/san-pham.html" method="GET" class="input-group input-group-lg search-box-custom">
+                        <input type="text" name="search" class="form-control" placeholder="Nhập tên game bạn muốn tìm..." aria-label="Tìm kiếm game">
+                        <button class="btn btn-danger fw-bold d-flex align-items-center gap-2" type="submit">
+                            <i class="bi bi-search"></i> <span class="d-none d-sm-inline">TÌM KIẾM</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <a href="html/san-pham.html" class="btn btn-outline-light rounded-pill px-4 py-2 fw-bold opacity-75 fs-6">
+                <i class="bi bi-grid-fill me-1"></i> HOẶC XEM TẤT CẢ KHO GAME
+            </a>
         </div>
     </div>
 
     <div class="container my-5">
-        <h2 class="text-center mb-4 fw-bold text-uppercase text-info">Niềm Vui Của Bạn Là Niềm Vui Của Tôi</h2>
+        <h2 class="text-center mb-4 fw-bold text-uppercase text-info">&#127918 GAME NỔI BẬT &#127918</h2>
         <div class="row" id="featured-games-list">
         </div>
     </div>

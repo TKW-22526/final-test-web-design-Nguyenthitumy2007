@@ -19,7 +19,7 @@ const gamesData = [
         rating: "4.7★",
         image: "../assets/lien-quan.jpg",        
         downloadUrl: "https://play.google.com/store/apps/details?id=com.garena.game.kgvn",
-        description: "Garena Liên Quân Mobile là game đấu trường trận chiến trực tuyến nhiều người chơi (MOBA) có đồ họa 3D tuyệt đỉnh cùng lối chơi đề cao kỹ năng và chiến thuật đồng đội.",
+        description: "Garena Liên Quân Mobile (Arena of Valor) là tựa game MOBA 5v5 miễn phí hàng đầu tại Việt Nam, đề cao tính công bằng và kỹ năng cá nhân cùng tinh thần đồng đội qua những trận đấu nhịp độ nhanh chỉ khoảng 10 phút. Trò chơi sở hữu hệ thống điều khiển đơn giản tối ưu cho thiết bị di động, tích hợp voice chat thời gian thực tiện lợi, cùng hàng loạt chế độ chơi đa dạng như đấu hạng khốc liệt, các bản đồ 1v1, 3v3 hay chế độ Cờ Liên Quân (Auto Chess). Bên cạnh đó, game liên tục thu hút người chơi nhờ kho tướng phong phú và các sự kiện hợp tác thương hiệu độc quyền với hàng loạt bản quyền anime, comic đình đám thế giới như DC Comics, Sword Art Online, Jujutsu Kaisen, Demon Slayer...",
         features: ["Bản đồ 5v5 cổ điển", "Hơn 100 tướng đa dạng vai trò", "Trận đấu nhanh gọn 12-15 phút"]
     },
     {
@@ -30,8 +30,8 @@ const gamesData = [
         rating: "4.6★",
         image: "../assets/GShin.jpg",        
         downloadUrl: "https://play.google.com/store/apps/details?id=com.miHoYo.GenshinImpact",
-        description: "Genshin Impact đưa bạn vào thế giới mở Teyvat tuyệt đẹp. Bạn sẽ đóng vai Nhà Lữ Hành đi tìm người thân bị thất lạc và khám phá những bí ẩn của các vị thần nguyên tố.",
-        features: ["Thế giới mở rộng lớn không giới hạn", "Hệ thống chiến đấu phản ứng nguyên tố", "Cốt truyện sâu sắc, âm nhạc tuyệt hảo"]
+        description: "Genshin Impact là một tựa game nhập vai phiêu lưu thế giới mở đưa người chơi vào hành trình tìm lại người thân bị chia cắt trên lục địa Teyvat rộng lớn — nơi được trị vì bởi Bảy Vị Thần và vận hành theo bảy hệ nguyên tố. Trong vai Nhà Lữ Hành, bạn sẽ tự do khám phá thiên nhiên tươi đẹp, tham gia vào các trận chiến chiến thuật dựa trên việc kết hợp phản ứng nguyên tố linh hoạt, đồng thời chiêu mộ dàn nhân vật độc đáo để cùng nhau chinh phục bí cảnh cũng như các trải nghiệm sandbox sáng tạo. Trò chơi ghi dấu ấn mạnh mẽ nhờ đồ họa phong cách hoạt họa tinh xảo, chuyển động mượt mà kết hợp hài hòa với âm hưởng giao hưởng đẳng cấp thế giới, mang lại một trải nghiệm phiêu lưu thế giới mở trọn vẹn và sống động.",
+        features: ["Thế giới mở rộng lớn không gđưa bạn vào thế giới mở Teyvatiới hạn", "Hệ thống chiến đấu phản ứng nguyên tố", "Cốt truyện sâu sắc, âm nhạc tuyệt hảo"]
     },
     {
         id: 4,
