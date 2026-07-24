@@ -298,3 +298,18 @@ function createGameCard(game, pathPrefix = "") {
         </div>
     `;
 }
+/**
+ * Lọc danh sách game theo từ khóa
+ * @param {Array} list - Danh sách mảng game gốc
+ * @param {String} keyword - Từ khóa người dùng nhập vào
+ * @returns {Array} Mảng các game thỏa mãn từ khóa
+ */
+function searchGames(list, keyword) {
+    if (!keyword) return list;
+    const term = keyword.toLowerCase().trim();
+    return list.filter(game => 
+        game.title.toLowerCase().includes(term) ||
+        game.categoryName.toLowerCase().includes(term) ||
+        game.description.toLowerCase().includes(term)
+    );
+}
